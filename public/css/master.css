@@ -7,3 +7,12 @@
     color: red;
     font-weight: bold;
 }
+
+#padding{
+padding:20px
+
+}
+
+#circleImage{
+border-radius: 75%;
+}
