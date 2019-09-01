@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/master.css">
-    <title>Home Page</title>
+    <title>Table</title>
   </head>
   <body>
 
@@ -31,84 +31,95 @@
 
   </div>
 </nav>
-
+<div class="container">
 <table id = "padding" class="table">
   <thead>
     <tr>
-      <th>ID(Integer)</th>
-      <th>Name(String)</th>
-      <th>Date Joined(Date)</th>
-      <th>Amount Due(Currency)</th>
+      <th>Title</th>
+      <th>Author(s)</th>
+      <th>Year Published</th>
+      <th>Publisher</th>
+      <th>Page Count </th>
+      <th>MSRP </th>
+
     </tr>
   </thead>
   <tbody>
     <tr class="table-light">
-      <th scope="row">1</th>
+      <th scope="row">Defending New York City</th>
       <td> <div id ="textColor"> Jane Doe
        </div> </td>
       <td>08/10/2008</td>
-      <td>$.1</td>
+      <td>Stark Publishing</td>
+      <td> 1222 </td>
+      <td> $123 </td>
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <th scope="row">Quantam Realm Theories</th>
       <td>Jane Smith</td>
       <td>08/10/2003</td>
-      <td>$11</td>
+      <td>Thor Publishing</td>
+      <td> 1 </td>
+      <td> $.10 </td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th scope="row">Honey I Shrunk Myself</th>
       <td>John Doe</td>
       <td>02/16/2004</td>
-      <td>$33</td>
+      <td>Ant Man Publishing</td>
+      <td>1222222</td>
+      <td>$23</td>
     </tr>
     <tr>
-      <th scope="row">4</th>
+      <th scope="row">My Life as Thor: God of Thunder</th>
       <td>John Smith</td>
       <td>03/23/1997</td>
-      <td>$23111</td>
+      <td>Thor Publishing</td>
+      <td>12309829103801</td>
+      <td>$123092138901283</td>
     </tr>
     <tr>
-      <th scope="row">5</th>
+      <th scope="row">Why Does Marvel Hate Me?</th>
       <td>Peter Parker</td>
       <td>08/23/2018</td>
-      <td>$3</td>
+      <td>Peter Parker Publishing</td>
+      <td>2139012832198390123890128930128313</td>
+      <td>$23 </td>
     </tr>
+
   </tbody>
-  <tr>
-    <th scope="row">
-      <div class="input-group">
-    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-    <div class="input-group-append">
-      <button id = "buttonColor" class="btn btn-success" type="button">Enter ID</button>
-    </div>
-  </div>
-</th>
-    <td><div class="input-group">
-  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-  <div class="input-group-append">
-    <button id="buttonColor" class="btn btn-success" type="button">Enter Name:</button>
-  </div>
-</div>
-</td>
-    <td><div class="input-group">
-  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-  <div class="input-group-append">
-    <button id ="buttonColor" class="btn btn-success" type="button">Enter Date:</button>
-  </div>
-</div>
-</td>
-    <td>
-      <div class="input-group">
-    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
-    <div class="input-group-append">
-      <button id ="buttonColor" class="btn btn-success" type="button">Enter Amount Due:</button>
-    </div>
-  </div>
-</td>
-  </tr>
+
 </table>
-
-
+</div>
+<hr>
+<h2> New Book Entries </h2>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Book Title</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Book Title">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput2">Author Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Enter Author Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput3">Year Published</label>
+    <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Enter Year Published">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput4">Publisher</label>
+    <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="Enter Publisher Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput5">Page Count</label>
+    <input type="email" class="form-control" id="exampleFormControlInput5" placeholder="Enter Page Count">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput6">MSRP</label>
+    <input type="email" class="form-control" id="exampleFormControlInput6" placeholder="Enter Cost">
+  </div>
+</form>
+<button type="button" class="btn btn-primary">Submit</button>
 
 
 
