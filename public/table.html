@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Home Page</title>
+  </head>
+  <body>
+
+
+    <nav id="top" class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="table.html">Table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="resources.html">Resources</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<table id = "padding" class="table">
+  <thead>
+    <tr>
+      <th>ID(Integer)</th>
+      <th>Name(String)</th>
+      <th>Date Joined(Date)</th>
+      <th>Amount Due(Currency)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <th scope="row">1</th>
+      <td>Jane Doe</td>
+      <td>08/10/2008</td>
+      <td>$.1</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jane Smith</td>
+      <td>08/10/2003</td>
+      <td>$11</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>John Doe</td>
+      <td>02/16/2004</td>
+      <td>$33</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>John Smith</td>
+      <td>03/23/1997</td>
+      <td>$23111</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Peter Parker</td>
+      <td>08/23/2018</td>
+      <td>$3</td>
+    </tr>
+  </tbody>
+  <tr>
+    <th scope="row">
+      <div class="input-group">
+    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+    <div class="input-group-append">
+      <button id = "buttonColor" class="btn btn-success" type="button">Enter ID</button>
+    </div>
+  </div>
+</th>
+    <td><div class="input-group">
+  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+  <div class="input-group-append">
+    <button id="buttonColor" class="btn btn-success" type="button">Enter Name:</button>
+  </div>
+</div>
+</td>
+    <td><div class="input-group">
+  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+  <div class="input-group-append">
+    <button id ="buttonColor" class="btn btn-success" type="button">Enter Date:</button>
+  </div>
+</div>
+</td>
+    <td>
+      <div class="input-group">
+    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+    <div class="input-group-append">
+      <button id ="buttonColor" class="btn btn-success" type="button">Enter Amount Due:</button>
+    </div>
+  </div>
+</td>
+  </tr>
+</table>
+
+
+
+
+
+  </body>
+</html>

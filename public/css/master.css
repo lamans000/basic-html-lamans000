@@ -16,3 +16,16 @@ padding:20px
 #circleImage{
 border-radius: 75%;
 }
+
+#buttonColor{
+background-color:blue;
+
+}
+
+#headerChange {
+color:Blue;
+}
+
+a:link{
+color:red;
+}
