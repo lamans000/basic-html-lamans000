@@ -31,8 +31,9 @@
 
   </div>
 </nav>
+
 <div class="container">
-<table id = "padding" class="table">
+<table id = "sortHeader" id="padding" class="table">
   <thead>
     <tr>
       <th>Title</th>
@@ -45,7 +46,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr class="table-light">
+    <tr class="table-lightblue">
       <th scope="row">Defending New York City</th>
       <td> <div id ="textColor"> Jane Doe
        </div> </td>
@@ -91,6 +92,7 @@
 
 </table>
 </div>
+
 <hr>
 <h2> New Book Entries </h2>
 <form>
@@ -121,6 +123,12 @@
 </form>
 <button type="button" class="btn btn-primary">Submit</button>
 
+<script src='js/tablesort.min.js'></script>
+
+
+<script>
+  new Tablesort(document.getElementById('sortHeader'));
+</script>
 
 
   </body>
