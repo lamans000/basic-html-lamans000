@@ -1,6 +1,8 @@
 body{
 background-color:lightblue;
 }
+
+
 th[role=columnheader]:not(.no-sort) {
 	cursor: pointer;
 }
